@@ -63,7 +63,7 @@ for i in range(int(runCount)):
     results.append(a)
     total = total + a
 
-    if a >= 50:
+    if a == 100:
         success = success + 1
 
 average = total/len(results)
